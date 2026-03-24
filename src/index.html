@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Aniversário</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Aniversário solidário do Urso Pistolinha: <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Onde?</b>
+                        Ao vivo no meu instagram
+                        @urso_pistolinha
+                    </li>                  
+                    <li class="infos-bar__infos__item">
+                        <b>Quando?</b>
+                        01/08/2026 às 20hrs
+                    </li>
+                </ul>
+
+                <a href="#" class="link">
+                    Ative um lembrete clicando aqui!
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--bolo">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">VAI TER BOLO!!!</h2>
+                <p class="event__details__description"> O valor arrecadado com a venda das fatias de bolo será destinado às ONG's da região!</p>
+            </div>
+            <img class="event__image" src="./images/bolo.png" alt="bolo">
+        </div>
+    </section>
+
+    <section class="event event--show event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">SHOW BOM PRA CACHORRO</h2>
+                <p class="event__details__description"> A diversão está garantida com o show da Banda Cães do Forró!</p>
+            </div>
+            <video autoplay muted loop playsinline class="event__details__video">
+      <source src="./images/musica.mp4" type="video/mp4">
+    </video>
+
+        </div>
+    </section>
+
+    <section class="event event--baloes">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">ESPERO VOCÊ!!!</h2>
+                <p class="event__details__description">Sua presença é muito importante para mim, não falte! Um lambeijo e até lá!</p>
+            </div>
+            <img class="event__image" src="./images/baloes.png" alt="balões">
+        </div>
+    </section>
+    
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="./scripts/main.js"></script>
+</html>
